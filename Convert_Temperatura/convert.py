@@ -4,6 +4,7 @@ lot = int(input("Digite qual temperatura sera convertida: "))
 
 def v(lot):
     if lot == 1:
+
       celsius = float(input("Digite a temperatura em Celsius: "))
       jao = (celsius*9/5)+32
       print (celsius,"=",jao,"Fahrenheit")
